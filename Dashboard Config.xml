@@ -1,0 +1,120 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="current position of the vision" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="29" y="568"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="896" y="70"/>
+		<width>438</width>
+		<height>362</height>
+		<property name="Camera Choice" value="USB Camera 1"/>
+	</static-widget>
+	<widget field="Auton Selecterion" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="459" y="41"/>
+	</widget>
+	<widget field="navX Integration Control Response Count" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="946" y="596"/>
+	</widget>
+	<widget field="NAVX ANGLE" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1083" y="476"/>
+	</widget>
+	<widget field="Auton Select" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="502" y="72"/>
+	</widget>
+	<widget field="Auton Selectioner" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="591" y="80"/>
+	</widget>
+	<widget field="SHOOTER VOLTAGE" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="186" y="494"/>
+	</widget>
+	<widget field="SHOOTER AMP" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="209" y="513"/>
+	</widget>
+	<widget field="Auton Selection" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="608" y="103"/>
+	</widget>
+	<widget field="Arm Pot" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="242" y="473"/>
+	</widget>
+	<widget field="Auton CHOOSEr" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="583" y="96"/>
+	</widget>
+	<widget field="LEFT ENCVEL" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="11" y="496"/>
+	</widget>
+	<widget field="SHOOTER WHEEL RPM" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="171" y="452"/>
+	</widget>
+	<widget field="navX Stream Responses" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1030" y="560"/>
+	</widget>
+	<widget field="navX Updates Per Sec" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1040" y="540"/>
+	</widget>
+	<widget field="Auton Chooserman" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="599" y="102"/>
+	</widget>
+	<widget field="Claw Close" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="614" y="-28"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="7" y="63"/>
+		<width>439</width>
+		<height>367</height>
+		<property name="Camera Choice" value="USB Camera 0"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="438" y="1"/>
+		<width>147</width>
+		<height>61</height>
+		<property name="Text" value="Autonomous Chooser"/>
+	</static-widget>
+	<widget field="Door Pos:" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="461" y="264"/>
+		<width>205</width>
+		<height>164</height>
+	</widget>
+	<widget field="RIGHT ENCVEL" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="3" y="512"/>
+	</widget>
+	<widget field="navX Discarded Bytes" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1042" y="517"/>
+	</widget>
+	<widget field="navX Port Resets" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1063" y="496"/>
+		<height>20</height>
+	</widget>
+	<widget field="LF POS" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="40" y="460"/>
+	</widget>
+	<widget field="RF POS" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="38" y="476"/>
+	</widget>
+	<widget field="Auton CHOOSE" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="574" y="97"/>
+	</widget>
+	<widget field="navX Partial Binary Packets" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1016" y="576"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="896" y="70"/>
+		<width>438</width>
+		<height>362</height>
+		<property name="Camera Choice" value="USB Camera 1"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="7" y="63"/>
+		<width>439</width>
+		<height>367</height>
+		<property name="Camera Choice" value="USB Camera 0"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="438" y="1"/>
+		<width>147</width>
+		<height>61</height>
+		<property name="Text" value="Autonomous Chooser"/>
+	</static-widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>
